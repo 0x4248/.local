@@ -1,0 +1,9 @@
+*
+
+!.gitignore
+!README.md
+
+!share/
+
+!share/konsole/
+!share/konsole/**
