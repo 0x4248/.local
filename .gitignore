@@ -7,3 +7,6 @@
 
 !share/konsole/
 !share/konsole/**
+
+!share/color-schemes/
+!share/color-schemes/**
