@@ -8,19 +8,19 @@ IntensityAmount=0.1
 IntensityEffect=2
 
 [ColorEffects:Inactive]
-ChangeSelectionColor=false
-Color=112,111,110
-ColorAmount=0.025
-ColorEffect=2
-ContrastAmount=0.1
+ChangeSelectionColor=true
+Color=0,0,0
+ColorAmount=-1
+ColorEffect=1
+ContrastAmount=0
 ContrastEffect=2
-Enable=false
-IntensityAmount=0
+Enable=true
+IntensityAmount=-1
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=30,87,116
-BackgroundNormal=0,0,0
+BackgroundAlternate=18,53,70
+BackgroundNormal=26,26,26
 DecorationFocus=61,174,233
 DecorationHover=61,174,233
 ForegroundActive=61,174,233
@@ -28,13 +28,13 @@ ForegroundInactive=161,169,177
 ForegroundLink=29,153,243
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
-ForegroundNormal=69,193,255
+ForegroundNormal=33,151,242
 ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [Colors:Complementary]
-BackgroundAlternate=30,87,116
-BackgroundNormal=0,13,20
+BackgroundAlternate=18,18,18
+BackgroundNormal=9,9,9
 DecorationFocus=61,174,233
 DecorationHover=61,174,233
 ForegroundActive=61,174,233
@@ -47,12 +47,12 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [Colors:Header]
-BackgroundAlternate=0,6,9
-BackgroundNormal=0,18,27
+BackgroundAlternate=26,26,26
+BackgroundNormal=9,9,9
 DecorationFocus=61,174,233
 DecorationHover=61,174,233
 ForegroundActive=61,174,233
-ForegroundInactive=161,169,177
+ForegroundInactive=89,89,89
 ForegroundLink=29,153,243
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
@@ -76,7 +76,7 @@ ForegroundVisited=155,89,182
 
 [Colors:Selection]
 BackgroundAlternate=30,87,116
-BackgroundNormal=61,174,233
+BackgroundNormal=0,170,255
 DecorationFocus=61,174,233
 DecorationHover=61,174,233
 ForegroundActive=252,252,252
@@ -89,8 +89,8 @@ ForegroundPositive=23,104,57
 ForegroundVisited=155,89,182
 
 [Colors:Tooltip]
-BackgroundAlternate=0,0,0
-BackgroundNormal=0,0,0
+BackgroundAlternate=9,9,9
+BackgroundNormal=9,9,9
 DecorationFocus=61,174,233
 DecorationHover=61,174,233
 ForegroundActive=61,174,233
@@ -104,7 +104,7 @@ ForegroundVisited=155,89,182
 
 [Colors:View]
 BackgroundAlternate=0,0,0
-BackgroundNormal=1,18,27
+BackgroundNormal=17,17,17
 DecorationFocus=61,174,233
 DecorationHover=61,174,233
 ForegroundActive=61,174,233
@@ -112,13 +112,13 @@ ForegroundInactive=161,169,177
 ForegroundLink=29,153,243
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
-ForegroundNormal=69,193,255
+ForegroundNormal=255,255,255
 ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [Colors:Window]
 BackgroundAlternate=0,0,0
-BackgroundNormal=0,0,0
+BackgroundNormal=9,9,9
 DecorationFocus=61,174,233
 DecorationHover=61,174,233
 ForegroundActive=61,174,233
@@ -126,23 +126,23 @@ ForegroundInactive=161,169,177
 ForegroundLink=29,153,243
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
-ForegroundNormal=120,210,255
+ForegroundNormal=241,241,241
 ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [General]
 ColorScheme=BreezeDark
-Name=Black blue 2
+Name=4248
 TitlebarIsAccentColored=false
-shadeSortColumn=false
+shadeSortColumn=true
 
 [KDE]
-contrast=10
+contrast=3
 
 [WM]
 activeBackground=0,15,22
 activeBlend=252,252,252
 activeForeground=252,252,252
 inactiveBackground=0,0,0
-inactiveBlend=161,169,177
+inactiveBlend=12,12,13
 inactiveForeground=161,169,177

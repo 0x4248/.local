@@ -8,19 +8,19 @@ IntensityAmount=0.1
 IntensityEffect=2
 
 [ColorEffects:Inactive]
-ChangeSelectionColor=false
-Color=112,111,110
-ColorAmount=0.025
-ColorEffect=2
-ContrastAmount=0.1
+ChangeSelectionColor=true
+Color=0,0,0
+ColorAmount=-1
+ColorEffect=0
+ContrastAmount=0
 ContrastEffect=2
-Enable=false
-IntensityAmount=0
+Enable=true
+IntensityAmount=-1
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=30,87,116
-BackgroundNormal=0,0,0
+BackgroundAlternate=37,37,37
+BackgroundNormal=9,9,9
 DecorationFocus=61,174,233
 DecorationHover=61,174,233
 ForegroundActive=61,174,233
@@ -33,8 +33,8 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [Colors:Complementary]
-BackgroundAlternate=30,87,116
-BackgroundNormal=0,13,20
+BackgroundAlternate=37,37,37
+BackgroundNormal=26,26,26
 DecorationFocus=61,174,233
 DecorationHover=61,174,233
 ForegroundActive=61,174,233
@@ -48,7 +48,7 @@ ForegroundVisited=155,89,182
 
 [Colors:Header]
 BackgroundAlternate=0,6,9
-BackgroundNormal=0,18,27
+BackgroundNormal=5,24,38
 DecorationFocus=61,174,233
 DecorationHover=61,174,233
 ForegroundActive=61,174,233
@@ -89,8 +89,8 @@ ForegroundPositive=23,104,57
 ForegroundVisited=155,89,182
 
 [Colors:Tooltip]
-BackgroundAlternate=0,0,0
-BackgroundNormal=0,0,0
+BackgroundAlternate=26,26,26
+BackgroundNormal=9,9,9
 DecorationFocus=61,174,233
 DecorationHover=61,174,233
 ForegroundActive=61,174,233
@@ -103,8 +103,8 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [Colors:View]
-BackgroundAlternate=0,0,0
-BackgroundNormal=1,18,27
+BackgroundAlternate=9,9,9
+BackgroundNormal=26,26,26
 DecorationFocus=61,174,233
 DecorationHover=61,174,233
 ForegroundActive=61,174,233
@@ -117,8 +117,8 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [Colors:Window]
-BackgroundAlternate=0,0,0
-BackgroundNormal=0,0,0
+BackgroundAlternate=9,9,9
+BackgroundNormal=9,9,9
 DecorationFocus=61,174,233
 DecorationHover=61,174,233
 ForegroundActive=61,174,233
@@ -132,9 +132,9 @@ ForegroundVisited=155,89,182
 
 [General]
 ColorScheme=BreezeDark
-Name=Black blue 2
+Name=Black blue 3
 TitlebarIsAccentColored=false
-shadeSortColumn=false
+shadeSortColumn=true
 
 [KDE]
 contrast=10
